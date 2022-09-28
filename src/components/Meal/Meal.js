@@ -14,6 +14,7 @@ export const Meal = ({ meal, addHandel }) => {
     return (
         <Card className="mb-4">
             <LazyLoadImage
+                alt={strMeal}
                 src={strMealThumb} />
             <Card.Body>
                 <Card.Title>{strMeal}</Card.Title>
